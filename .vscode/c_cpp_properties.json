@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:STM32CLT_PATH}/GNU-tools-for-STM32/arm-none-eabi/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "compilerPath": "${env:STM32CLT_PATH}/GNU-tools-for-STM32/bin/arm-none-eabi-gcc.exe"
+        }
+    ],
+    "version": 4
+}
