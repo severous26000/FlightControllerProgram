@@ -23,7 +23,7 @@
 54	3596	7430506867678063	CMakeFiles/FlightController.dir/Core/Src/main.c.obj	5ed48474f85c72ba
 5079	6589	7430506900873289	FlightController.elf	70a38a76329d5224
 13	2791	7430506862336112	CMakeFiles/FlightController.dir/Core/Src/Tools.c.obj	27f34937203f79be
-25	1029	7430510108528006	build.ninja	5dd013e9764b7b22
+25	1029	7430967617731517	build.ninja	5dd013e9764b7b22
 61	2777	7380341169701346	CMakeFiles/FlightController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj	ae2a0e7774d02120
 25	3237	7430506865049688	CMakeFiles/FlightController.dir/Core/Src/MotorControl.c.obj	529e5c9bc23daf99
 5651	7324	7380341215804679	CMakeFiles/FlightController.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj	7853f655ddf86c4d
