@@ -150,7 +150,7 @@ int main(void)
 	NRF24L01P_Rx_Init(2500, _1Mbps);
 
   // Init PID
-  PID_Init(&pid_roll, 0.0005, 0.0, 0.0); 
+  PID_Init(&pid_roll, 0.1, 0.0, 0.0); 
   PID_Init(&pid_pitch, 0.1, 0.01, 0.01);
   PID_Init(&pid_yaw, 0.01, 0.001, 0.001);
   PID_Init(&pid_Vz, 0.1, 0.01, 0.01);

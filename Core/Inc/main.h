@@ -72,7 +72,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
 
 /* USER CODE BEGIN Private defines */
 #define LOOP_TIME 0.01
-#define BaseSpeed 15
+#define BaseSpeed 30
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

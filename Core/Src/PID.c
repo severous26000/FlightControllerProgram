@@ -9,10 +9,11 @@ void PID_Init(PID_t *pid, float Kp, float Ki, float Kd) {
 }
 
 float PID_Compute(PID_t *pid, float setpoint, float measured, float dt) {
+    float E_Factor = 0.00000000001;
     float error = setpoint - measured;
     pid->integral += error * dt;
     float derivative = (error - pid->previous_error) / dt;
     pid->previous_error = error;
-    return (pid->Kp * error) + (pid->Ki * pid->integral) + (pid->Kd * derivative);
+    return E_Factor * ((pid->Kp * error) + (pid->Ki * pid->integral) + (pid->Kd * derivative));
 }
 
